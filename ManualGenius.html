@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <title>Manual Genius</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="cont">
+        <!--Cabeçalho Contém a Logo-->
+        <header id="cabecalho">
+            <p id="logo"></p>
+        </header>
+        <!--Contém toda parte do documento e suas Caracteristicas e seus Donwload-->
+        <section id="documento">
+            <span id="fotoManual"><i class="fas fa-atlas fa-10x"></i>
+            </span>
+            <span id="tituloPrincipal"><h2>Manual Genius</h2>
+                <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico.<br> Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC.<br> Richard McClintock, um
+                    professor de latim do Hampden-Sydney College na Virginia,<br> descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum"
+                </p>    
+            <a href="https://drive.google.com/uc?authuser=0&id=1dt3erITK9VCukJMXcYDDUeM3OpG6z-l4&export=download" target="_blank"><button type="button" class="btn btn-primary min-width-125 font-w400"><i class="fas fa-download"></i> Donwload</button></a>
+            </span>
+        </section>
+        <!--Contém a Palavra-chave para pesquisar dentro do Manual e seu Iframe-->
+        <section class="manual">
+            <div class="inputPesquisar">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-primary min-width-125 font-w400" type="button" id="button-addon1"><span id="chave"><i class="fas fa-search"></i> Pesquisar</span></button>
+                    </div>
+                    <div class="col-xs-4">
+                        <input type="text" class="form-control" placeholder="Palavra-Chave" aria-label="Palavra-Chave" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+            </div>
+            <iframe class="manualFrame" src="file:///C:/Users/cleyton.adona/Documents/Visual%20Code/GENIUS.pdf"></iframe>
+        </section>
+        <!--Avaliação / Sugestão do Usuario a utilizar o Manual-->
+        <section id="avaliacao">
+            <div class="col-md-10 clear">
+                <hr>
+                <h3>Deixe seu Comentario</h3>
+            </div>
+            <div class="col-md-10">
+                <div class="container-fluid well span10">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form accept-charset="UTF-8" action="" method="POST">
+                                <textarea class="form-control counted" name="message" placeholder="Digite uma mensagem" rows="5" style="margin-bottom:10px;"></textarea>
+                                <button class="btn btn-primary min-width-125 font-w400" type="submit"><i class="far fa-comments"></i> Comentar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0331f95d3d.js" crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

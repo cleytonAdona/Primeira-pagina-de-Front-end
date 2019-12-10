@@ -1,0 +1,83 @@
+#cabecalho {
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    /*border: 10px outset #003068;*/
+    background-color: #00458A;
+}
+
+#logo {
+    background-image: url(http://genius.multilog.com.br/Content/img/logo-150-branca.png);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+#tituloPrincipal {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+h2 {
+    text-align-last: auto;
+}
+
+#documento {
+    width: 100%;
+    height: 220px;
+    /*border: 10px outset #003068;*/
+    background-color: #EFEFEF;
+    display: inline-flex;
+}
+
+#fotoManual {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: auto;
+    margin-top: 1%;
+    padding-left: 5%;
+}
+
+.inputPesquisar {
+    margin: 2% auto;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.manual {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    margin-top: -2%;
+    /*border: 10px outset #003068;*/
+    background-color: #FFFFFF;
+}
+
+.manualFrame {
+    width: 95%;
+    height: 85%;
+    border-style: ridge;
+    border: 10px outset #F58634;
+    background-color: #191970;
+}
+
+#chave {
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F58634;
+    border-color: #D6760C;
+}
+
+#avaliacao {
+    width: 100%;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    /*border: 10px outset #003068;*/
+    background-color: #EFEFEF;
+}
